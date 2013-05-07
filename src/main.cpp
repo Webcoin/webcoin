@@ -2511,7 +2511,7 @@ bool LoadBlockIndex(bool fAllowNew)
 
         //// debug print
         printf("block.GetHash() == %s\n", block.GetHash().ToString().c_str());
-        assert(block.hashMerkleRoot == uint256("f7783907e3672c6c8be86bbe3bdbad967af975f57548eb3dbcf95da891acb6d4"));
+        assert(block.hashMerkleRoot == uint256("0xf7783907e3672c6c8be86bbe3bdbad967af975f57548eb3dbcf95da891acb6d4"));
         block.print();
         assert(block.GetHash() == hashGenesisBlock);
         //assert(block.CheckBlock()); // TODO: uncomment
